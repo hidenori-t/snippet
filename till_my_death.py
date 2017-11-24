@@ -34,7 +34,7 @@ class Timer(Tk.Frame):
         self.tokei.grid(row=2, column=0, columnspan=4,
                         padx=5, pady=2, sticky=Tk.W + Tk.E)
 
-    def start(self):  # Startを押したときの動作
+    def start(self):  # Startを押したときの動作 ほんとは押さなくてもカウントが始まってくれて良いのだが
         self.started = True
         self.finish = time.time() + int(my_time)
         self.count()
