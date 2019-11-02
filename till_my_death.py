@@ -5,7 +5,8 @@ import tkinter as Tk
 import time
 import datetime
 
-my_time = (datetime.datetime(2069, 1, 28) -
+# 寿命を残り20年，54歳までとする
+my_time = (datetime.datetime(2039, 1, 28) -
            datetime.datetime.now()).total_seconds()
 
 WIDTH = 10
